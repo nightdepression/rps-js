@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>gaming session</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <div class="container">
+        <header>
+            <h1>Камень, ножницы, бумага</h1>
+            <h3 class="status"></h3>
+        </header>
+        <main class="board">
+            <div class="player">
+                <div class="icon"></div>
+                <span>&nbsp;</span>
+            </div>
+            <div class="computer">
+                <div class="icon"></div>
+                <span>&nbsp;</span>
+            </div>
+        </main>
+        <footer>
+            <ul class="controls" data-playing="true">
+                <li data-choice>
+                    <div class="icon" data-icon="rock"></div>
+                </li>
+                <li data-choice>
+                    <div class="icon" data-icon="paper"></div>
+                </li>
+                <li data-choice>
+                    <div class="icon" data-icon="scissors"></div>
+                </li>
+                <li data-restart>
+                    <div class="icon" data-icon="restart"></div>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</html>
